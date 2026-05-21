@@ -504,7 +504,7 @@ body {
 }
 
 .nav a:hover {
-  color: var(--accent=gold);
+  color: var(--accent,gold);
 }
 
 .nav a:active,
