@@ -1,4 +1,3 @@
-import React from 'react';
 function Materials() {
   return (
     <div className="materials-page">
