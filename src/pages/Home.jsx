@@ -8,11 +8,11 @@ function Home() {
     <div>
 
       {/* HERO SECTION */}
-      <section className="hero">
+      <section className="about-hero">
 
-        <div className="hero-overlay">
+        <div className="about-overlay">
 
-          <div className="hero-content">
+          <div className="about-content">
 
             <h1>
               CONNECTING YOU TO
