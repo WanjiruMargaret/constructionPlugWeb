@@ -2,30 +2,19 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
-
   const [open, setOpen] = useState(false);
-
   return (
     <header className="navbar">
-
       <div className="logo">
         <Link to="/">ConstructionPlug</Link>
       </div>
-
-      <nav className={open ? "nav-links open" : "nav-links"}>
-
+      <nav className={open ? "nav open" : "nav"}>
         <Link to="/">Home</Link>
-
         <Link to="/services">Services</Link>
-
         <Link to="/materials">Materials</Link>
-
         <Link to="/about">About</Link>
-
         <Link to="/contact">Contact</Link>
-
       </nav>
-
       <a
         className="whatsapp-btn"
         href="https://wa.me/254798305809"
@@ -34,7 +23,6 @@ export default function Navbar() {
       >
         WhatsApp Us
       </a>
-
       <div
         className="hamburger"
         onClick={() => setOpen(!open)}
